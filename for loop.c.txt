@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main () {
+	int a;
+	a=1;
+	for (a=1;a<60;++a)
+	{   printf("\n%d",a);}
+	
+	return 0;
+}

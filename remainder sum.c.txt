@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+   float a,b,c,r;
+   printf ("enter two values :");
+   scanf ("%f%f",&a,&b);
+   c=a/b;
+   r=a+(b*c);
+   printf ("the remainder is :%.f",r);
+    
+    return 0;
+}

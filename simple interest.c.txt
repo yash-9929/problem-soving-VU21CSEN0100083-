@@ -1,0 +1,13 @@
+# include <stdio.h>
+int main () {
+    float p,r,t,s;
+    printf ("enter the principal amount :");
+    scanf ("%f",&p);
+    printf ("\nenter the rate :");
+    scanf ("%f",&r);
+    printf ("\nenter the time period in years :");
+    scanf ("%f",&t);
+    s=(p*r*t)/100;
+    printf ("\nthe simple interest is :%f ",s);
+    return 0;
+}

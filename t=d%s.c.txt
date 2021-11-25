@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main () {
+    float d,s,t;
+    printf ("the value of distance is :");
+    scanf ("%f",&d);
+    printf ("\nthe value of speed is :");
+    scanf ("%f",&s);
+    t=d/s*60;
+    printf ("\nthe time in seconds is :%.f",t);
+    return 0;
+}

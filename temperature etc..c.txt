@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main () {
+    float h,v,d,a,temperature,celsius,fahrein;
+    printf ("enter the time :");
+    scanf ("%f",&h);
+    h=h*60;
+    printf ("\nthe time in seconds is :%f",h);
+    printf ("\nenter the distance in kilometers is :");
+    scanf ("%f",&d);
+    d=d*1000;
+    printf ("\nthe distance in meters is :%f",d);
+    printf ("\nenter the area in meters is :");
+    scanf ("%f",&a);
+    a=a*10000;
+    printf ("\nthe meters in centimeters is :%f",a);
+    printf ("\nenter the volume :");
+    scanf ("%f",&v);
+    v=v*100000;
+    printf ("\nthe volume in cubic meters is :%f",v);
+    printf ("\nenter the temperature :");
+    scanf ("%f",&temperature);
+    celsius=(fahrein-32)*5/9;
+    printf ("\nthe temperature in fahrein is :%f",temperature);
+    return 0;
+}

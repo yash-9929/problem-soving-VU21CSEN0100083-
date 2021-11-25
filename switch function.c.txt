@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,f,g,ch;
+
+    printf ("\nenter operations \n1.addition\n2.subtraction\n3.multiplication\n4.division\n5.mod\n");
+    scanf ("%d",&ch);
+    printf ("enter two variables here :");
+    scanf ("%d %d",&a,&b);
+    switch (ch)
+    {   case 1:
+        c=a+b;
+        printf ("\nsum of two variables is :%d",c);
+        break;
+        case 2:
+        d=a-b;
+        printf ("\ndifference between two variables is :%d",d);
+        break;
+        case 3:
+        e=a*b;
+        printf ("product of two variables is :%d",e);
+        break;
+        case 4:
+        f=a/b;
+        printf ("a/b is :%d",f);
+        break;
+        case 5:
+        g=a%b;
+        printf ("mod of two variables is :%d",g);
+        break ;
+        default:
+        printf ("\nerror || enter correct choice");
+    }
+
+    
+    return 0;
+}

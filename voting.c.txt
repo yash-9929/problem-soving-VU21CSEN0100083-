@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main () {
+    int a;
+   printf ("check whether he/she is eligible for voting or not");
+   printf ("\nenter the value of a :");
+   scanf ("%d",&a);
+   if (a>=18)
+   {   printf ("he/she is eligible for voting");
+   }
+   else 
+   {   printf ("he/she is not eligible for voting");
+   }
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main () {
+    float p,r,c,t,R;
+    printf ("\nenter the principle :");
+    scanf ("%f",&p);
+    printf ("\nenter the rate :");
+    scanf ("%f",&r);
+    printf ("\nenter the time in years :");
+    scanf ("%f",&t);
+    R=1+r/100;
+    c=p*R;
+    printf ("\nthe compound interest is :%f",c);
+    return 0;
+}
