@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main () {
+    
+    char op;
+    float a,b,result =0.0f;
+    printf ("enter [a] [+ - * / ] [b]\n");
+    scanf ("%f %c %f",&a,&op,&b);
+    switch (op)
+    {  case '+' :
+         result = a+b;
+         break ;
+         case '-' :
+         result = a - b;
+         break;
+         case '*' :
+         result = a *b;
+         break ;
+         case '/' :
+         result =a/b;
+         break;
+         default :
+         printf ("invalid operator");
+    }
+    printf ("%.f %c %.f=%.f",a,op,b,result);
+    return 0;
+    
+    
+}
